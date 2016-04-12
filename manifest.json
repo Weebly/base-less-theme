@@ -1,0 +1,19 @@
+{
+	"manifest" : "1",
+	"version" : "1.0.0",
+	"enableEditorJS": true,
+	"responsive" : true,
+	"glyph-icons" : true,
+	"variations": [
+		{
+			"value" : "light",
+			"sample": "#ffffff",
+			"is-dark": false
+		},
+		{
+			"value" : "dark",
+			"sample": "#212121",
+			"is-dark": true
+		}
+	]
+}
