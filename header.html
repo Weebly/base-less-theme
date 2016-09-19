@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 </head>
 
-<body class="title-page">
+<body class="header-page">
 
 	<div id="wrapper">
 
@@ -21,17 +21,16 @@
 			</div>
 		</div>
 
-		<div id="banner" class="wsite-background">
-			<div class="banner-content">
-				<div class="container">
-					<h2>{headline:text global="false"}</h2>
-					<p>{headline-paragraph:text global="false"}</p>
-				</div>
-			</div>
+		<div id="banner">
+			{{#header}}
+				<div class="container">{content}</div>
+			{{/header}}
 		</div>
 
 		<div id="main">
-			<div class="container">{content}</div>
+			{{#sections}}
+				<div class="container">{content}</div>
+			{{/sections}}
 		</div>
 
 		<div id="footer">{footer}</div>
