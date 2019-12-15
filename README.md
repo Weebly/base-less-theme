@@ -1,4 +1,4 @@
-#Weebly Base Theme - LESS Version
+# Weebly Base Theme - LESS Version
 
 ## Get Started with Weebly Themes
 
